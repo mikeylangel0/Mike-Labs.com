@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid black;
+  z-index: 10;
+  padding: 0px;
+  overflow: auto;
+  min-width: 300px;
+}
+
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 a {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: none;
+  -webkit-transition: 5s;
+}
+
+h1 a:hover {
+  transition: all 500ms ease-in 1s;
+  color: transparent;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  float: right;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 550;
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  margin: 10px;
+  -webkit-transition: 10000ms;
+}
+
+.button:hover {
+  float: right;
+  transition: all;
+  text-decoration: underline;
+}
+
+.top {
+  margin: 20px;
+}
+
+.ayo {
+  text-transform: uppercase;
+}
+
+.sendto {
+  color: hotpink;
+}
+
+figure {
+  text-decoration: none;
+}
+
+.ART124 {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1px;
+  overflow-x: hidden;
+}
+
+.Album_fig {
+  text-decoration: none;
+  transition: all 1000ms ease-out;
+  color: rgb(134, 134, 134);
+  padding-bottom: 6px;
+  display: block;
+  float: left;
+  text-decoration: none;
+  padding-top: 3px;
+  font-size: 24px;
+  overflow: hidden;
+  padding-right: 0px;
+}
+
+.Album_fig:hover {
+  transition: all 500ms ease-out;
+  color: rgb(0, 0, 0);
+}
+
+.ART124 img {
+  opacity: 70%;
+  transition: all 500ms ease-out;
+}
+
+.ART124 img:hover {
+  transition: all 500ms ease-out;
+  opacity: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.name_top {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: inline;
+  width: 10%;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: none;
+}
+
+.name_top:hover {
+  transition: all 500ms ease-in 1s;
+  color: transparent;
+}
+
+.this_page {
+  font-style: italic;
+}
+
+.art124_images {
+  display: flex;
+  float: left;
+  margin: auto;
+  padding: 10px;
+}
+
+.assignment_4 {
+  padding: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+.expand {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  bottom: 0;
+}
+
+.Film {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1px;
+  overflow-x: hidden;
+}
+
+.film_page {
+  padding: 5px;
+
+}
+
+.film_caption {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.home_caption {
+  transition: all 1000ms ease-in;
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+  font-weight: 550;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.home_caption:hover {
+  transition: all 500ms ease-in;
+  color: black;
+  padding-left: 5px;
+}
